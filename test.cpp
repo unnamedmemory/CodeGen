@@ -1,6 +1,6 @@
+#include <d3d9.h>
 
-int f(int x)
+int main()
 {
-	int result = (x / 42);
-	return result;
+	return 0;
 }

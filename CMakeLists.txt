@@ -37,3 +37,7 @@ target_link_libraries(helloworld
     clangRewriteFrontend
     clangASTMatchers
     )
+
+include_directories("C:\\msys64\\clang64\\lib\\clang\\14.0.3\\include")
+
+add_executable(test test.cpp)
